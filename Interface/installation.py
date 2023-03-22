@@ -25,7 +25,7 @@ path = os.path.join(desktop, "Identificateur de Veine Palmaire.lnk")
 print()
 shell = Dispatch('WScript.Shell')
 shortcut = shell.CreateShortCut(path)
-shortcut.Targetpath = os.path.abspath("")+"\\Code\\launcher.vbs"
-shortcut.WorkingDirectory = os.path.abspath("")+"\\Code"
+shortcut.Targetpath = os.path.abspath("")+"\\Interface\\launcher.vbs"
+shortcut.WorkingDirectory = os.path.abspath("")+"\\Interface"
 shortcut.IconLocation = os.path.abspath("")+"\\Image\\ESME2.ico"
 shortcut.save()
