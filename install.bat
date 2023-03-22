@@ -1,1 +1,1 @@
-py Code/installation.py
+py Interface/installation.py
